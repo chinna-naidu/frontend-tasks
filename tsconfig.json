@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"strict": true,
+		"sourceMap": true,
+		"outDir": "dist",
+		"rootDir": "src",
+		"module": "commonjs",
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"types": ["vitest/globals", "node"] // Add vitest/globals here
+	},
+	"include": [
+		"src/**/*" // Only include files within the src directory
+	]
+}

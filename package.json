@@ -1,0 +1,22 @@
+{
+	"name": "one-stop-frontend",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "vitest",
+		"build": "tsc",
+		"type-check": "tsc --noEmit"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"@testing-library/react": "^16.2.0",
+		"@types/node": "^22.13.14",
+		"@vitest/coverage-c8": "^0.33.0",
+		"jsdom": "^26.0.0",
+		"typescript": "^5.8.2",
+		"vitest": "^3.0.9"
+	}
+}
