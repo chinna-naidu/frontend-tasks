@@ -9,7 +9,7 @@
 		"esModuleInterop": true,
 		"skipLibCheck": true,
 		"forceConsistentCasingInFileNames": true,
-		"types": ["vitest/globals", "node"] // Add vitest/globals here
+		"types": ["vitest/globals", "node", "@types/es-aggregate-error"] // Add vitest/globals here
 	},
 	"include": [
 		"src/**/*" // Only include files within the src directory
