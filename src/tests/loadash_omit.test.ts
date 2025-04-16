@@ -41,6 +41,6 @@ test('omit handles non-existent paths without errors', () => {
 
 test('omit handles array elements correctly', () => {
     const arr: any[] = [1, 2, 3];
-    omit(arr, '1', true);
+    omit(arr, '1');
     expect(arr).toEqual([1, 3]);
 });
