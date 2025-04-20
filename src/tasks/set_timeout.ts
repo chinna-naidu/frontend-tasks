@@ -24,11 +24,11 @@ export const createSetTimeout = (): SetTimeoutProps => {
                 fn();
                 return;
             }
-            queueMicrotask(() => check());
+            setImmediate(() => check());
         };
 
         // initiating the intial check aynchronously as timeouts are async
-        queueMicrotask(() => check());
+        setImmediate(() => check());
 
         return id;
     };

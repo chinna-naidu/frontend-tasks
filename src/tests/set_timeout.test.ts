@@ -4,6 +4,7 @@ import { createSetTimeout } from '../tasks/set_timeout';
 describe('createSetTimeout', () => {
 
     it('should call the callback function after the specified time', () => {
+        vi.useRealTimers();
         const { mySetTimeout } = createSetTimeout();
         const fn = vi.fn();
         mySetTimeout(fn, 0);
